@@ -1,0 +1,260 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=yes">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>AjiTaKoul</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'css/bootstrap.min.css' %}"  rel="stylesheet">
+  
+    <link href="{% static 'css/view-source:https://blackrockdigital.github.io/startbootstrap-new-age/device-mockups/device-mockups.min.css.css' %}"  rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-new-age/device-mockups/device-mockups.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/simple-line-icons.css' %}">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link href="{% static 'css/lato.css' %}" rel="stylesheet">
+    <link href="{% static 'css/400.css' %}" rel="stylesheet">
+    <link href="{% static 'css/MULI.css' %}" rel="stylesheet">
+    
+
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+    <link rel='stylesheet' href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'device-mockups/device-mockups.min.css' %}">
+    <link rel="stylesheet" href="{% static 'device-mockups/device-mockups.css' %}">
+    <link rel="stylesheet" href="{% static 'device-mockups/device-mockups2.css' %}">
+    <link rel="stylesheet" href="{% static 'device-mockups/device-mockups2.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+ 
+    <!-- Custom styles for this template -->
+    <link href="{% static 'css/new-age.min.css' %}" rel="stylesheet">
+    <link href="{% static 'scss/_navbar.scss' %}" rel="stylesheet">
+  </head>
+
+  <body id="page-top">
+  <body data-spy="scroll" data-offset="40" data-target=".navbar">
+    <nav class="navbar navbar-inverse navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">AjiTakoul</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Télécharger</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Fonctionnalités</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">Participez à mettre fin au gaspillage alimentaire, et aidez à assurer un repas pour ceux qui ont en le plus besoin.</h1>
+              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">En savoir plus!</a>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="{% static 'img/hada.jpg' %}" class="img-fluid" alt="">
+                    
+                    
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h1 class="section-heading">AjiTakoul est une application qui vise la réduction du gaspillage alimentaire tout en assurant des repas pour les sans-abris, les enfants de la rue et ceux vivant sous le seuil de la pauvreté au Maroc!</h1>
+            <p>AjiTaKoul serait bientôt disponible sur Android et iPhone!</p>
+            <div class="badges">
+              <a class="badge-link" href="#"> <img src="{% static 'img/google-play-badge.svg' %}" alt=""></a>
+              <a class="badge-link" href="#"> <img src="{% static 'img/app-store-badge.svg' %}" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Comment ça marche</h2>
+          <p class="text-muted">Que vous soyez un particulier avec des restes des repas du jours, supermarchés ou restaurant avec des invendus quotidiens, vous pouvez participez à aligner le déséquilibre entre le gaspillage alimentaire et ceux qui se retrouvent à remuer les sacs de poubelles pour des miettes qui calmeront leurs faims. 
+            </p>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 my-auto">
+            <div class="device-container">
+              <div class="device-mockup iphone6_plus portrait white">
+                <div class="device">
+                  <div class="screen">
+                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                    <img src="{% static 'img/hada.jpg' %}" class="img-fluid" alt="">
+                  </div>
+                  <div class="button">
+                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 my-auto">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-cup"></i>
+                    <h3>Joignez-vous à AjiTakoul</h3>
+                    <p class="text-muted">En un simple clique vous pouvez indiquer votre possession de restes alimentaires. </p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-pin text-primary"></i>
+                    <h3>Dites-nous où vous êtes!</h3>
+                    <p class="text-muted">En une seconde et dernière étape, indiquez la localisation d'où vous voulez délivrer.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-basket-loaded text-primary"></i>
+                    <h3>On collecte!</h3>
+                    <p class="text-muted">On se charge de collecter vos restes des repas et produits alimentaires.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                    <i class="fa fa-truck text-primary"></i>
+                    <h3>On livre</h3>
+                    <p class="text-muted">On se charge de la livraison aux sans abris et enfants de la rue.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="cta-content">
+        <div class="container">
+          <h2>Au lieu de jeter. <br>Aidez votre prochain!!</h2>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Bientôt sur vos mobiles!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="contact bg-primary" id="contact">
+      <div class="container">
+        <h2>Ensemble
+          <i class="fa fa-hand-grab-o"></i>
+          c'est possible!</h2>
+        <ul class="list-inline list-social">
+          <li class="list-inline-item social-twitter">
+            <a href="#">
+              <i class="fa fa-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-facebook">
+            <a href="#">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item social-google-plus">
+            <a href="#">
+              <i class="fa fa-google-plus"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="#">Privacy</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">Terms</a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'javascript/jquery.min.js' %}"></script>
+    <!--script src="vendor/jquery/jquery.min.js"></script-->
+    <script src="{% static 'javascript/bootstrap.bundle.min.js' %}"></script>
+    <!--script src="{% static 'javascript/new-age.sublime-workspace' %}"></script-->
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'javascript/jquery.easing.min.js'%}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{% static 'javascript/new-age.min.js' %}"></script>
+    <!--<script src="{% static 'javascript/new-age.js' %}"></script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="{% static 'javascript/jqBootstrapValidation.js' %}"></script>
+    <script src="js/contact_me.js"></script>
+  </body>
+
+</html>
