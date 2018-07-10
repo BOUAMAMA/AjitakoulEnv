@@ -91,8 +91,8 @@
 	padding-bottom: 61.775701%;
 }
 
-/*.device-mockup.macbook > .device {
-	/* background-image: url("macbook/macbook.png"); */
+.device-mockup.macbook > .device {
+	background-image: url("macbook/macbook.png");
 }
 
 .device-mockup.macbook > .device > .screen {
@@ -769,7 +769,4 @@
 .device-mockup.samsung_tv > .device > .screen,
 .device-mockup.samsung_tv.landscape > .device > .screen {
     top: 2.148803%; bottom: 12.817127%; left: 1.261956%; right: 1.361956%;
-}
-.device-mockup.iphone6_plus.portrait.white>.device, .device-mockup.iphone6_plus.white>.device {
-    background-image: url(iphone_6_plus/iphone_6_plus_white_port.png);
 }
