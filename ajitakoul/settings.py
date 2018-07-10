@@ -20,6 +20,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root') 
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
@@ -125,6 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 if DEBUG:
     MEDIA_URL = '/media/'
     STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static", "static-only")
