@@ -1,0 +1,120 @@
+
+.device-mockup {
+    position: relative;
+    width: 100%;
+
+    header.masthead {
+    color: #fff;
+
+    body {
+    font-family: Muli,Helvetica,Arial,sans-serif;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+.device-mockup.iphone6_plus.portrait.white > .device, .device-mockup.iphone6_plus.white > .device {
+    background-image: url(device-mockups/iphone_6_plus/iphone_6_plus_white_port.png);
+}
+
+
+
+.device-mockup > .device {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    *, ::after, ::before {
+    box-sizing: border-box;
+
+.device-container {
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
+header.masthead .device-container {
+    max-width: 325px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.device-mockup.iphone6_plus, .device-mockup.iphone6_plus.portrait {
+    padding-bottom: 201.76%;
+}
+
+    section.features .feature-item i {
+    font-size: 80px;
+    display: block;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(to left,#7b4397,#dc2430);
+    background: linear-gradient(to left,#7b4397,#dc2430);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+nav {
+  text-align: center;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+}    
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #fed136;
+}
