@@ -29,7 +29,7 @@ STATICFILES_DIRS = (
 )
     os.path.join(BASE_DIR, 'AjitakoulEnv/static'),
 )
-#STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root') 
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -148,7 +148,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "live-static", "static-root")
 
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
-#STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
+STATIC_ROOT = "/home/cfedeploy/webapps/cfehome_static_root/"
 
 MEDIA_URL = "/media/"
 
