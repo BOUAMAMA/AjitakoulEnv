@@ -20,7 +20,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'AjitakoulEnv/static/static'),
+    os.path.join(BASE_DIR, 'AjitakoulEnv/static'),
 )
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root') 

@@ -20,6 +20,13 @@ STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'AjitakoulEnv/static'),
+)
+#STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+WHITENOISE_ROOT = os.path.join(BASE_DIR, 'staticfiles', 'root') 
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '*6cy3r2xwrge=s2v$mg@j-0t*egu^(6i1xuhifr6nx4f4a$p*3'
 
